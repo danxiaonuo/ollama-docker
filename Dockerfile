@@ -136,6 +136,7 @@ ARG PKG_DEPS="\
     upx-ucl \
     libxml2-dev \
     libxslt1-dev \
+	zstd \
     cargo \
     rustc \
     sudo \
