@@ -80,6 +80,7 @@ ARG PKG_DEPS="\
     sshpass \
     openssl \
     supervisor \
+    zstd \
     language-pack-zh-hans \
     fonts-droid-fallback \
     fonts-wqy-zenhei \
