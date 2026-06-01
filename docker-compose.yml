@@ -48,6 +48,11 @@ services:
       OLLAMA_NUM_PARALLEL: 16
       OLLAMA_MAX_LOADED_MODELS: 16
       OLLAMA_MODELS: /root/.ollama/models
+      #HTTP_PROXY: http://127.0.0.1:7890
+      #HTTPS_PROXY: http://127.0.0.1:7890
+      #ALL_PROXY: http://127.0.0.1:7890
+      #NO_PROXY: "localhost,127.0.0.1,0.0.0.0,ollama,.local"
+      #no_proxy: "localhost,127.0.0.1,0.0.0.0,ollama,.local"
     # 指定设备映射关系
     devices:
      - /dev/net/tun
@@ -115,6 +120,11 @@ services:
       RAG_WEB_SEARCH_ENGINE: duckduckgo
       RAG_WEB_SEARCH_RESULT_COUNT: 5
       RAG_WEB_SEARCH_CONCURRENT_REQUESTS: 10
+      #HTTP_PROXY: http://127.0.0.1:7890
+      #HTTPS_PROXY: http://127.0.0.1:7890
+      #ALL_PROXY: http://127.0.0.1:7890
+      #NO_PROXY: "localhost,127.0.0.1,0.0.0.0,ollama,.local"
+      #no_proxy: "localhost,127.0.0.1,0.0.0.0,ollama,.local"
     # 指定设备映射关系
     devices:
      - /dev/net/tun
